@@ -1,0 +1,108 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background-color: #252525;
+  margin-top: 50px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  margin-left: 0;
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffff00a9;
+  color: #fff;
+  padding: 10px; /* Combined padding */
+  border-radius: 5px;
+  margin-bottom: 1rem; /* Consider adjusting this for spacing */
+}
+
+.scr {
+  overflow-y: scroll; /* Ensure this is applied correctly */
+  max-height: 400px; /* Set a maximum height for scrolling */
+}
+
+.scr::-webkit-scrollbar {
+  width: 0; /* Hides scrollbar */
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+}
+
+.todo-btn:hover {
+  background: #8758ff;
+  color: #fff;
+  box-shadow: 0 0 10px #8758ff; /* Added shadow for hover effect */
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.todo-green {
+  background-color: green; /* Add other styles as needed */
+}
+
+.todo-red {
+  background-color: rgba(193, 199, 43, 0.976); /* Add other styles as needed */
+}
+
+.anca {
+  font-size: 25px;
+}
+
+.heads {
+  display: flex; 
+  justify-content: space-evenly; 
+}
